@@ -10,18 +10,26 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
-            
-            Console.WriteLine("Kad esi dzimis?");//izvade
-
-            String dati; // pieskirt simbolu virknei definiciju
-            dati = Console.ReadLine(); //uz ekrana ieraksta dzimsanas gadu
-
-            Console.WriteLine("Jus esat dzimis " + dati);//izvada tekstu(rezultatu) + to, kas tika ievadits uz ekrana zem "dati" 
-            Console.WriteLine("Git.hub tests!!! ");
-
+            double rezultats = Aprekins();
+            tekstaIzvade();
+            tekstaIzvade();
+            Console.WriteLine(rezultats);
             Console.ReadLine();
                         
+        }
+
+        static void tekstaIzvade() //f-ja neatgriez vertibu
+        {
+            Console.WriteLine("Jus esat dzimis "); //izvada tekstu(rezultatu) + to, kas tika ievadits uz ekrana zem "dati" 
+            Console.WriteLine("Git.hub tests!!! ");
+        }
+
+        static double Aprekins()//f-ja, kas atgriez vertibu 
+        {
+            double a = 5.4;
+            double b = 6.8;
+            double c = a + b;
+            return c;
         }
     }
 }
