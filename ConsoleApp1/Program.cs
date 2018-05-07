@@ -18,7 +18,7 @@ namespace ConsoleApp1
             dati = Console.ReadLine(); //uz ekrana ieraksta dzimsanas gadu
 
             Console.WriteLine("Jus esat dzimis " + dati);//izvada tekstu(rezultatu) + to, kas tika ievadits uz ekrana zem "dati" 
-            Console.WriteLine("Git.hub tests!!!");
+            Console.WriteLine("Git.hub tests!!! ");
 
             Console.ReadLine();
                         
